@@ -1,2 +1,2 @@
-# csce-120-fall2025
-Class code for CSCSE 120 Fall 2025
+# CSCE 120 Fall 2025
+Prof. Ritchey's code from class
