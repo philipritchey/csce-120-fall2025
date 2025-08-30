@@ -3,4 +3,4 @@
 * [broken record](broken_record): loops
 * [find largest](find_largest): types, conditionals, sequence
 * [average](average): loops, sequence, conditionals
-* [number slicing](number_slicing): types, code organization, header guards
+
