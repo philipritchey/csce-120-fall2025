@@ -3,7 +3,6 @@
 #include <vector>
 
 #define DEBUG(X) std::cout << "(" << __func__ << ":" << __LINE__ << ") [DEBUG] " << #X << " = " << X << std::endl;
-#define DEBUG2(X,Y) std::cout << "(" << __func__ << ":" << __LINE__ << ") [DEBUG] " << X << Y << std::endl;
 
 std::ostream& operator<<(std::ostream&, const std::vector<int>&);
 
@@ -22,9 +21,9 @@ int main() {
     // expect bubble({1,2}, 0) to update vector to {2,1}
     bubble(numbers, 0);
     if (numbers.size() == 2 and numbers.front() == 2 and numbers.back() == 1) {
-        std::cout << "[PASS] {1,2} -> {2,1}\n";
+        std::cout << "[PASS] swap {1,2} -> {2,1}\n";
     } else {
-        std::cout << "[FAIL] expected {1,2} -> {2,1}, got "<<numbers<<"\n";
+        std::cout << "[FAIL] expected swap {1,2} -> {2,1}, got "<<numbers<<"\n";
     }
     
     return 0;
