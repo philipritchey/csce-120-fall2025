@@ -1,0 +1,19 @@
+To solve a quadratic equation:
+Input: coefficients a,b,c: floating-point
+Output: roots: list of floating-point
+
+if a is 0 then
+    // solve the linear equation bx + c = 0
+    x = -c/b
+    return {x}
+end if
+
+discriminant = b^2 - 4ac
+if discriminant < 0 then
+    return no real roots
+end if
+
+x1 = (-b + sqrt(b^2 - 4ac)) / 2a
+x2 = (-b - sqrt(b^2 - 4ac)) / 2a
+
+return {x1, x2}
