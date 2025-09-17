@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 
+// i'm just being fancy...
 #define RESET "\033[0m"
 #define RED "\033[31m"
 #define GREEN "\033[32m"
@@ -36,6 +37,7 @@ int main() {
             pass_cnt++;
         }
     }
+    // so fancy...
     std::cout << BOLD << (pass_cnt + fail_cnt) << " tests" << RESET << "\n";
     if (pass_cnt) {
         std::cout << GREEN << pass_cnt << " passing" << RESET << "\n";
