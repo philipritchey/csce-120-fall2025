@@ -6,3 +6,4 @@ Prof. Ritchey's code from class
 * [Week 2](week2) - Vectors
 * [Week 3](week3) - Object-Oriented Concepts, Multidimensional Vectors, Errors and Debugging
 * [Week 4](week4) - Errors and Debugging, Design and Planning
+* [Week 5](week5) - Excpetions, Input/Output Streams
