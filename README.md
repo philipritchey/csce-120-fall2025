@@ -7,3 +7,13 @@ Prof. Ritchey's code from class
 * [Week 3](week3) - Object-Oriented Concepts, Multidimensional Vectors, Errors and Debugging
 * [Week 4](week4) - Errors and Debugging, Design and Planning
 * [Week 5](week5) - Excpetions, Input/Output Streams
+* [Week 6](week6) - Input/Output Streams
+* [Week 7](week7) - Functions with References nad Pointers, Class Design, Writing Classes
+* [Week 8](week8) - Writing Classes
+* [Week 9](week9) - Writing Classes, Dynamic Memory
+* [Week 10](week10) - C-style Arrays, Dynamic Arrays
+* [Week 11](week11) - Dynamic Arrays, Classes with Dynamic Memory
+* [Week 12](week12) - Classes with Dynamic Memory
+* [Week 13](week13) - Linked Lists
+* [Week 14](week14) - Linked Lists
+* [Week 15](week15) - Recursion
