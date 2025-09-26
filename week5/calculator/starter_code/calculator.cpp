@@ -15,9 +15,9 @@ int main() {
     std::istringstream iss(line);
     std::cout << "TODO: extract <first_number> <op> <second_number> from iss" << std::endl;
 
-    // compute the result of the question based on op
+    // compute the result of the expression based on op
     double result = 0;
-    std::cout << "TODO: compute result based on op symbol, allowed symbols are +, -, *, %" << std::endl;
+    std::cout << "TODO: compute result based on op symbol, allowed symbols are +, -, *, /" << std::endl;
 
     // output result
     std::cout << "result: " << result << std::endl;
