@@ -3,3 +3,4 @@
 * [stream states](stream_states) - stream state examples
 * [validating input](validating_input) - using stream states for input validation
 * [stairs](stairs) - practice recovering from bad input
+* [unnecessary censorship](unnecessary_censorship) - practice file i/o
