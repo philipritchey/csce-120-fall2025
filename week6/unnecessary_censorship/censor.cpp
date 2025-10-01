@@ -33,7 +33,7 @@ int main() {
   while (!original_in.eof()) {
     // 1) get next line
     std::string line;
-    getline(original_in, line);
+    std::getline(original_in, line);
 
     // TODO(student): add code to check if getline executed properly
     //                if not, print a warning, recover, and continue
