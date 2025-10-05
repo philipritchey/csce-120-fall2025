@@ -1,7 +1,11 @@
 #include <iostream>
 
-// swaps the values of `a` and `b`
-void swap(int a, int b) {
+/**
+ * swaps the values of `a` and `b`
+ * @param a
+ * @param b
+ */
+void my_swap(int a, int b) {
     // TODO(student): update this function so the swap persists outside the function
 }
 
@@ -13,7 +17,7 @@ int main() {
     std::cout << "x: " << x << std::endl;
     std::cout << "y: " << y << std::endl;
 
-    swap(x, y);
+    my_swap(x, y);
 
     std::cout << "after swap: " << std::endl;
     std::cout << "x: " << x << std::endl;
