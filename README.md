@@ -8,7 +8,7 @@ Prof. Ritchey's code from class
 * [Week 4](week4) - Errors and Debugging, Design and Planning
 * [Week 5](week5) - Excpetions, Input/Output Streams
 * [Week 6](week6) - Input/Output Streams
-* [Week 7](week7) - Functions with References nad Pointers, Class Design, Writing Classes
+* [Week 7](week7) - Functions with References and Pointers, Class Design, Writing Classes
 * [Week 8](week8) - Writing Classes
 * [Week 9](week9) - Writing Classes, Dynamic Memory
 * [Week 10](week10) - C-style Arrays, Dynamic Arrays
