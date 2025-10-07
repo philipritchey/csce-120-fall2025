@@ -5,7 +5,7 @@
 /**
  * return the middle of the string
  * @param str the string
- * @returns the middle thrid of the string
+ * @returns the middle third of the string
  */
 std::string get_middle_third(std::string& str) {
     std::string retStr;
