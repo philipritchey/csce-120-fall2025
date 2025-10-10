@@ -10,7 +10,9 @@ const char LOSS = 'L';
 const char TIE = 'T';
 
 class Team {
+  private:
     struct WinLossTieRecord {
+        // default public
         unsigned num_wins = 0;
         unsigned num_losses = 0;
         unsigned num_ties = 0;

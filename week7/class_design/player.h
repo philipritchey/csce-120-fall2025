@@ -4,7 +4,7 @@
 #include <string>
 
 class Player {
-    // private by default
+ private:
     std::string name;
     unsigned int jersey_number;
     std::string position;
