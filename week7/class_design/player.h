@@ -1,3 +1,6 @@
+#ifndef _PLAYER_H_
+#define _PLAYER_H_
+
 #include <iomanip>
 #include <sstream>
 #include <string>
@@ -8,7 +11,7 @@ class Player {
     unsigned int jersey_number;
     std::string position;
 
-    public: // everyting that follows is public
+ public:  // everyting that follows is public
     void set_name(const std::string& new_name) {
         name = new_name;
     }
@@ -31,3 +34,5 @@ class Player {
         return oss.str();
     }
 };
+
+#endif  // _PLAYER_H_
