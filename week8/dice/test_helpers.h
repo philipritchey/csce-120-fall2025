@@ -1,6 +1,9 @@
 #ifndef TEST_HELPERS_H_
 #define TEST_HELPERS_H_
 
+#include <iostream>
+#include <exception>
+
 #define expect_equal(actual, expected) try {\
     unsigned actual_value = actual;\
     unsigned expected_value = expected;\
@@ -40,6 +43,14 @@
 } catch (...) {\
     std::cout << "[FAIL] " << __func__ << ":" <<__LINE__ << "\n";\
     std::cout << "unexpected non-std::exception" << std::endl;\
+}
+
+#define expect_throw(expression) try{\
+    expression;\
+    std::cout << "[FAIL] " << __func__ << ":" << __LINE__ << "\n";\
+    std::cout << "expected " << #expression << " to throw an exception, but nothing thrown" << std::endl;\
+} catch (...) {\
+    std::cout << "[PASS] " << #expression << " threw an exception" << std::endl;\
 }
 
 #endif  // TEST_HELPERS_H_
