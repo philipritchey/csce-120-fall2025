@@ -20,6 +20,8 @@ class PositiveInteger {
     }
 
     unsigned get_value() const { return value; }
+
+    bool operator==(const PositiveInteger& rhs) const { return this->value == rhs.value; }
 };
 
 std::ostream& operator<<(std::ostream&, const PositiveInteger&);
@@ -37,6 +39,8 @@ class Dice {
     unsigned sides() const { return number_of_sides.get_value(); }
     unsigned value() const { return current_value.get_value(); }
     void roll();
+
+    bool operator==(const Dice& rhs) const;
 };
 
 #endif  // DICE_H_

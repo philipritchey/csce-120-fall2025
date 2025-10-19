@@ -13,3 +13,9 @@ void Dice::roll() {
     }
     current_value = value;
 }
+
+bool Dice::operator==(const Dice& rhs) const {
+    return this->number_of_dice == rhs.number_of_dice
+        && this->number_of_sides == rhs.number_of_sides
+        && this->current_value == rhs.current_value;
+}

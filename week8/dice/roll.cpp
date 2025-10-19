@@ -7,6 +7,7 @@ void test_1d6();
 void test_2d10();
 void test_20d2();
 void test_invalid_dice();
+void test_equality();
 void demo_5d20();
 
 int main() {
@@ -14,6 +15,7 @@ int main() {
     test_2d10();
     test_20d2();
     test_invalid_dice();
+    test_equality();
 
     demo_5d20();
 
@@ -73,6 +75,24 @@ void test_invalid_dice() {
     expect_throw(Dice(0, 0));
     expect_throw(Dice(-1, -1));
     expect_throw(Dice(3.14, 2.73));
+}
+
+void test_equality() {
+    Dice dice_2d6_1(2, 6);
+    Dice dice_2d6_2(2, 6);
+    Dice dice_1d12(1, 12);
+
+    if (dice_2d6_1 == dice_2d6_2) {
+        std::cout << "pass" << std::endl;
+    } else {
+        std::cout << "fail" << std::endl;
+    }
+
+    if (!(dice_2d6_1 == dice_1d12)) {
+        std::cout << "pass" << std::endl;
+    } else {
+        std::cout << "fail" << std::endl;
+    }
 }
 
 void demo_5d20() {
