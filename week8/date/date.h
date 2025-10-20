@@ -22,6 +22,6 @@ public:
     int get_day() const { return day; }
 };
 
-std::ostream& operator<<(std::ostream&, const Date&);
+// std::ostream& operator<<(std::ostream&, const Date&);
 
 #endif  // DATE_H_

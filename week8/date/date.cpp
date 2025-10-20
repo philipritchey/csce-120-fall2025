@@ -47,7 +47,3 @@ bool Date::operator<(const Date& rhs) const {
         || (this->year == rhs.year && this->month < rhs.month)
         || (this->year == rhs.year && this->month == rhs.month && this->day < rhs.day);
 }
-
-std::ostream& operator<<(std::ostream& os, const Date& date) {
-    return os << date.get_year() << "/" << date.get_month() << "/" << date.get_day();
-}
