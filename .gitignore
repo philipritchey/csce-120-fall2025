@@ -42,3 +42,8 @@
 
 # VSCode files
 .vscode
+
+# gcov files
+*.gcno
+*.gcda
+*.gcov
