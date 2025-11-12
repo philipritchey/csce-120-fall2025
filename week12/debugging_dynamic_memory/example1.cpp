@@ -31,6 +31,10 @@ void test_copy_assignment() {
 
     // names should be the same
     assert(a.name() == b.name());
+
+    // names should be "Bob"
+    assert(a.name() == "Bob");
+
     // but pointers should be different
     assert(&a.name() != &b.name());
 }
@@ -42,7 +46,7 @@ int main() {
     Student b("Bob");
 
     b = a;
-    
+
     cout << a << endl;
     cout << b << endl;
 

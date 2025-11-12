@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 
-#include <cassert>
-
 using std::cout, std::endl, std::ostream, std::string;
 
 class Student {
@@ -28,7 +26,7 @@ int main() {
     Student b("Bob");
 
     b = a;
-    
+
     cout << a << endl;
     cout << b << endl;
 
